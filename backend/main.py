@@ -70,7 +70,7 @@ async def call_groq_api(payload: Dict) -> Dict:
         headers = {
             "Authorization": f"Bearer {GROQ_API_KEY}",
             "Content-Type": "application/json",
-            "Groq-Organization": os.getenv("GROQ_ORGANIZATION")
+            "Groq-Organization": os.getenv("GROQ_ORGANIZATION_ID")
         }
 
         try:
