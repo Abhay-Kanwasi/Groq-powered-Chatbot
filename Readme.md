@@ -141,7 +141,7 @@ The frontend communicates with the backend using Axios for HTTP requests and Rea
 
 The chat settings can be adjusted via the settings panel:
 
-- **Model**: Select which Groq model to use
+- **Model**: Select which Groq model to use [Available models are: deepseek-r1-distill-llama-70b, llama-3.3-70b-versatile, qwen-qwq-32b, qwen-2.5-coder-32b]
 - **Temperature**: Adjust from 0.0 (more deterministic) to 1.0 (more creative)
 - **Max Tokens**: Set the maximum length of responses (100-2000)
 - **Stream**: Toggle streaming mode for real-time responses
