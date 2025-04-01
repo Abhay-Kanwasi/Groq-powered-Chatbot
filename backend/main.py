@@ -146,7 +146,7 @@ async def get_models():
     """Return the list of available models"""
     return {"models": list(MODELS.keys())}
 
-@app.get("/health")
+@app.get("/")
 async def health_check():
     """Health check endpoint"""
     return {"status": "ok"}
